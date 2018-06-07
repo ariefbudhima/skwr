@@ -8,9 +8,8 @@
                 <h4>create</h4>
             </div>
             <div class="box-body">
-                <blockquote>
-                    <p>Selamat Datang, <span class="text-primary">{{ Auth::user()->name }}</span>!</p>
-                </blockquote>
+              {{ Form::open() }}
+
             </div>
         </div>
     </div>
