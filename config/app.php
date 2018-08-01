@@ -12,7 +12,7 @@ return [
     | any other location as required by the application or its packages.
     */
 
-    'name' => 'LaraStarter',
+    'name' => 'Serikat Karyawan Wika Realty',
 
     /*
     |--------------------------------------------------------------------------
@@ -236,6 +236,8 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         'Form' => Illuminate\Html\FormFacade::class,
         'Html' => Illuminate\Html\HtmlFacade::class,
+        'Input' => Illuminate\Support\Facades\Input::class,
+
 
         /*
          * 3rd party

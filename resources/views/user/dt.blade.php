@@ -58,13 +58,13 @@ $(function() {
             { data: 'email', name: 'email' },
             { data: 'role', name: 'role' },
             { data: 'action', name: 'action', orderable: false, searchable: false }
-        ],
-        pageLength      : 50,
-        order           : [],
-        searchDelay     : 1500,
-        drawCallback    : function(settings) {
-            $('a[data-toggle="tooltip"]', this.api().table().container()).tooltip({ container : 'body' });
-        }
+        ]
+        // pageLength      : 50,
+        // order           : [],
+        // searchDelay     : 1500,
+        // drawCallback    : function(settings) {
+        //     $('a[data-toggle="tooltip"]', this.api().table().container()).tooltip({ container : 'body' });
+        // }
     });
     // init data
 

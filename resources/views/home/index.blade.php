@@ -12,7 +12,8 @@
                     <p>Selamat Datang, <span class="text-primary">{{ Auth::user()->name }}</span>!</p>
                 </blockquote>
             </div>
-        </div>
+
+          </div>
     </div>
 </div>
 

@@ -24,11 +24,10 @@
             {{-- start: header --}}
             <header class="main-header">
                 <a href="{{ url('/') }}" class="logo">
-                  <img class="logo-mini" src="{{asset('skwr.png')}}" alt="Our Logo" height="25" style="position:absolute; top:10px; float:left">
+                  <img class="logo-mini" src="{{asset('logo-skwr.png')}}" alt="Our Logo" height="45" style="position:absolute; top:5px; float:left">
                     <!-- <span class="logo-lg"><b>SK Wika Realty</b></span> -->
                     <div class="logo-lg">
-                      <img src="{{asset('skwr.png')}}" alt="Our Logo" height="50" style="position:static; top: 10%; float:left">
-                      <span class="logo-lg" style="float:left"><b>SKWR</b></span>
+                      <p style="font-size:13px; font-family:Arial; font-weight:bold;"> Serikat Karyawan Wika Realty </p>
 
                     </div>
                     <!-- <img class="logo-lg" src="{{asset('skwr.png')}}" alt="Our Logo" height="40" style="position:absolute; left:3.5%; top: 10%"> -->

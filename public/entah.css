@@ -1,0 +1,95 @@
+.navbar-dark{
+
+}
+
+.bg-dark{
+  background-color: #546e7a
+}
+
+.dropdown .user .user-menu{
+  position: relative;
+  float: right;
+  color: #000000;
+}
+
+.hidden-xs{
+  color: #FFFFFF;
+}
+
+.user-image{
+  /* position: relative;
+  float: right; */
+}
+
+.navbar-navi>li{
+  float: left;
+  list-style-type: none;
+}
+
+.navbar-navi>li>a {
+  /* float: left; */
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.navbar-custom-menu{
+  float: right;
+}
+
+.notted{
+  /* float: right; */
+}
+
+.dropdown-menu{
+  box-shadow:none;
+  border-color:#eee
+}
+
+.dropdown-menu li>a>.fa-angle-left,
+.dropdown-menu li>a>.pull-right-container>.fa-angle-left {
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin-right: 10px;
+    -webkit-transition: transform .5s ease;
+    -o-transition: transform .5s ease;
+    transition: transform .5s ease
+}
+
+.treeview-menu {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-left: 5px
+}
+
+.treeview-menu .treeview-menu {
+    padding-left: 20px
+}
+
+.treeview-menu>li {
+    margin: 0
+}
+
+.treeview-menu>li>a {
+    padding: 5px 5px 5px 15px;
+    display: block;
+    font-size: 14px
+}
+
+.treeview-menu>li>a>.fa,
+.treeview-menu>li>a>.glyphicon,
+.treeview-menu>li>a>.ion {
+    width: 20px
+}
+
+.treeview-menu>li>a>.pull-right-container>.fa-angle-left,
+.treeview-menu>li>a>.pull-right-container>.fa-angle-down,
+.treeview-menu>li>a>.fa-angle-left,
+.treeview-menu>li>a>.fa-angle-down {
+    width: auto
+}

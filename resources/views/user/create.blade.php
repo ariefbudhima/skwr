@@ -90,6 +90,9 @@ $(function() {
     $('#role').val('{{ old('role') }}').trigger('change');
     @endif
     // event
+
+    console.log('{{old('name')}}');
+
     $('#btn-submit').click(function() {
         var isValid = true,
             form = $('#form-input');
