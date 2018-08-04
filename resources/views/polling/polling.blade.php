@@ -14,6 +14,9 @@
                 @if(Entrust::can('user_create'))
                 <div class="box-tools pull-right">
                     <a class="btn btn-primary" href="{{ url('polling/create') }}"><i class="fa fa-plus"></i> New</a>
+                    <a class="btn btn-secondary" href="{{ url('polling/viewadmin') }}"><i class="fa fa-plus"></i> View Polling</a>
+                    <!-- <button type="submit" class="btn btn-primary pull-right" id="btn-submit">Submit</button> -->
+
                 </div>
                 @endif
             </div>
@@ -29,7 +32,7 @@
                     </thead>
                     <tbody></tbody>
                 </table>
-                <!-- <a href="{{url('polling/user')}}"><button type="button" name="button" >Login</button></a> -->
+                <!-- <a href="{{url('polling/viewadmin')}}"><button type="button" name="button" >Login</button></a> -->
             </div>
         </div>
     </div>

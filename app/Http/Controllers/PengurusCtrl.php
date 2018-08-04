@@ -127,7 +127,7 @@ class PengurusCtrl  extends Controller
             try {
               $extension = $req->file('gambar')->getClientOriginalExtension();
               $filename = uniqid().'_'.time().'_'.date('Ymd').'.'.$extension;
-              $dir = 'assets/image/news/';
+              $dir = 'assets/image/pengurus/';
               // save image
               $req->file('gambar')->move($dir, $filename);
 

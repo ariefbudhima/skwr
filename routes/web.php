@@ -12,6 +12,9 @@
 */
 Route::post('post','Email@store');
 
+Route::get('viewmail', ['uses'=>'Email@send']);
+
+
 Route::get('/', [ 'uses'=>'HomeCtrl@index' ]);
 Route::post('login', 'UserCtrl@do_login');
 Route::get('logout', function() {
@@ -78,6 +81,8 @@ Route::group(['prefix' => 'polling'], function(){
   Route::get('/', ['uses'=> 'PollingCtrl@index', 'middleware' => 'permission:polling_index']);
   Route::get('gdata', [ 'uses' => 'PollingCtrl@gdata', 'middleware' => 'permission:polling_index' ]);
   Route::get('user', [ 'uses' => 'PollingCtrl@user', 'middleware' => 'permission:polling_index' ]);
+  Route::post('admin', [ 'uses' => 'PollingCtrl@admin', 'middleware' => 'permission:polling_index' ]);
+  Route::get('viewadmin', [ 'uses' => 'PollingCtrl@viewadmin', 'middleware' => 'permission:polling_index' ]);
   Route::post('hitung/{id}', [ 'uses' => 'PollingCtrl@entahlah', 'middleware' => 'permission:polling_index' ]);
   Route::get('create', [ 'uses' => 'PollingCtrl@create', 'middleware' => 'permission:polling_create' ]);
   Route::get('tambah', [ 'uses' => 'PollingCtrl@tambah', 'middleware' => 'permission:polling_create' ]);

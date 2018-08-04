@@ -217,6 +217,22 @@ class PollingCtrl extends Controller
     // return count($ans);
   }
 
+  public function viewadmin(){
+    $poli = Polling::where('active','=', TRUE)->first();
+    $param['pol'] = $poli;
+    // dd($poli->question);
+    return view("polling.hasil")->with($param);
+  }
+
+  public function admin(){
+    $poli = Polling::where('active','=', TRUE)->first();
+    $ans = PollingAns::where('idquestion', $poli->id)->get();
+
+    if ($poli) {
+      return($this->entahlah($poli->id));
+    }
+  }
+
 }
 
  ?>
